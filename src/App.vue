@@ -1,47 +1,27 @@
 <script>
+import AppHeader from "./components/AppHeader.vue";
+import AppMain from "./components/AppMain.vue";
+import AppFooter from "./components/AppFooter.vue";
 
-// dal mitico Cappa
-// export default{
-//     data(){
-//         return{
-//             logo: '',
-//             images: [
-//                 {
-//                     image: '',
-//                     imageHover: ''
-//                 },
-//                 {
-//                     image: '',
-//                     imageHover: ''
-//                 },
-//                 {
-//                     image: '',
-//                     imageHover: ''
-//                 },
-//                 {
-//                     image: '',
-//                     imageHover: ''
-//                 },
-//                 {
-//                     image: '',
-//                     imageHover: ''
-//                 },
-//                 {
-//                     image: '',
-//                     imageHover: ''
-//                 },
-//             ],
-//         }
-//     },
+export default {
+  data() {
+    return {};
+  },
 
-//     methods: {
-//     }
-// }
-
+  components: {
+    AppHeader,
+    AppMain,
+    AppFooter,
+  },
+};
 </script>
 
+<template>
+  <app-header></app-header>
+  <app-main></app-main>
+  <app-footer></app-footer>
+</template>
 
-<template></template>
-
-
-<script></script>
+<style lang="scss">
+@use "./styles/general.scss";
+</style>

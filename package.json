@@ -1,5 +1,5 @@
 {
-  "name": "34-vite-boolando",
+  "name": "vite-boolando",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.6.7",
+    "json-server": "^1.0.0-alpha.23",
     "vue": "^3.4.15"
   },
   "devDependencies": {

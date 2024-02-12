@@ -1,0 +1,70 @@
+@use "./partials/variables" as *;
+@use "./partials/mixins" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+//Header//
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: #ff6900;
+  position: sticky;
+  top: 0;
+}
+
+.header-logo img {
+  width: 200px;
+}
+
+.header-icons {
+  color: white;
+  font-size: 40px;
+}
+
+.header-links a {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+  color: white;
+}
+
+//Footer//
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  margin: 0 auto;
+  padding: 100px 10px;
+}
+
+.footer-icons {
+  color: white;
+  font-size: 60px;
+}
+
+h5 {
+  color: white;
+  font-size: 60px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 30px;
+  display: inline-block;
+  padding: 15px;
+}
